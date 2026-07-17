@@ -46,11 +46,12 @@ function Card({ title, subtitle, children }) {
   return (
     <div style={card.page}>
       <div style={card.box}>
-        <svg width="36" height="31" viewBox="0 0 46 40" fill="none" style={{ display: "block", marginBottom: 10 }} aria-label="Westbuilt Hub">
-          <rect x="7" y="7" width="14" height="14" rx="2" stroke="#193441" strokeWidth="2.4" />
-          <rect x="25" y="7" width="14" height="14" rx="2" stroke="#849A8F" strokeWidth="2.4" />
-          <rect x="7" y="19.5" width="14" height="14" rx="2" stroke="#849A8F" strokeWidth="2.4" />
-          <rect x="25" y="19.5" width="14" height="14" rx="2" stroke="#193441" strokeWidth="2.4" />
+        <svg width="34" height="33" viewBox="0 0 120 116" fill="none" style={{ display: "block", marginBottom: 12 }} aria-label="Westbuilt">
+          <g stroke="#193441" strokeWidth="7" strokeLinejoin="round" strokeLinecap="round">
+            <path d="M20 104 L12 44 L60 8 L108 44 L100 104" />
+            <path d="M15 104 L105 104" />
+            <path d="M32 72 L60 44 L88 72" />
+          </g>
         </svg>
         <div style={card.h}>{title}</div>
         <div style={card.sub}>{subtitle}</div>
